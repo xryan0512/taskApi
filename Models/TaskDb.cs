@@ -6,7 +6,7 @@ namespace projectef.Models;
 public class TaskDb
 {
     [Key]
-    public Guid Id { get; set; }
+    public int Id { get; set; }
     [Required]
     [MaxLength(200)]
     public string Name { get; set; }
